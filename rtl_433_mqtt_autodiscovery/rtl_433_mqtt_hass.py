@@ -433,6 +433,17 @@ mappings = {
             "unit_of_measurement": "W",
             "value_template": "{{ value|float }}"
         }
+    }, 
+
+    "power0": {
+        "device_type": "sensor",
+        "object_suffix": "watts",
+        "config": {
+            "device_class": "power",
+            "name": "Power",
+            "unit_of_measurement": "W",
+            "value_template": "{{ value|float }}"
+        }
     },
 
     "light_lux": {
