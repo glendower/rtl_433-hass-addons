@@ -424,7 +424,7 @@ mappings = {
         }
     },
 
-    "power_W": {
+    "power0_W": {
         "device_type": "sensor",
         "object_suffix": "watts",
         "config": {
