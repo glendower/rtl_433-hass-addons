@@ -294,6 +294,17 @@ mappings = {
         }
     },
 
+    "wind_max_km_h": {
+        "device_type": "sensor",
+        "object_suffix": "GS",
+        "config": {
+            "name": "Wind max",
+            "unit_of_measurement": "km/h",
+            "value_template": "{{ float(value|float) | round(2) }}"
+        }
+    },
+  
+
     "wind_max_m_s": {
         "device_type": "sensor",
         "object_suffix": "GS",
